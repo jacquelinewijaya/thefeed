@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&display=swap');
+
+
+.static {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FFE2E2;
+}
+header {
+    width: 400px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-family: 'Quicksand';
+    font-size: x-large;
+}
+.first_word {
+    font-family: 'Pacifico';
+    font-size: 50px;
+}
+
+nav {
+    
+    width: 400px;
+    position: fixed;
+    top: 150px;
+    left: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    background-color:lightcoral;
+    
+}
+
+main {
+    width: 450px;
+    margin-left: 500px;
+}
+
+section {
+    background-color: #D9E3C1;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 25px;
+}
