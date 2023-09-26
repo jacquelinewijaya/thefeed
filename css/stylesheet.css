@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&display=swap');
 
 
+.splash_page {
+    background-image: url("../img/splash_background.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
 .static {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 20%;
+    background-color:hotpink;
+    border-radius: 25px;
 }
 body {
-    max-width: 1200px;
-    margin: auto;
-    background-color: #FFE2E2;
+    margin: 0;
+    background-image: url("../img/feed_background.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
 }
 header {
     width: 400px;
@@ -20,25 +33,42 @@ header {
     font-family: 'Quicksand';
     font-size: x-large;
 }
-.first_word {
-    font-family: 'Pacifico';
-    font-size: 50px;
+
+h1 {
+    font-size: 80px;
+   color: azure; 
+   text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    margin-left: 30px;
 }
 
 nav {
-    
-    width: 400px;
+    width: 375px;
     position: fixed;
-    top: 150px;
-    left: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid black;
+    top: 325px;
+    left: 75px;
+    bottom: 50px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
     border-radius: 25px;
-    text-align: center;
-    background-color:lightcoral;
-    
+    padding-left: 25px;
+    background-image: url("../img/receipt.jpeg");
+    overflow: scroll;
+}  
+h2 {
+    margin-left: 100px;
+    margin-bottom: 5px;
 }
-
+h3 {
+    font-size: 10px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+a {
+    color:black;
+}
 main {
     width: 450px;
     margin-left: 500px;
